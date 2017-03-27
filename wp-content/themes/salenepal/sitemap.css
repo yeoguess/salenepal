@@ -1,0 +1,43 @@
+#toggle-view {
+    list-style:none;
+    font-family:arial;
+    margin:0;
+    padding:0;
+}
+
+#toggle-view h2 {
+    border-bottom:0px;
+    margin-top:15px;
+    margin-top:30px;
+}
+
+#toggle-view h2:hover {
+    color:#ff0000;
+}
+
+#toggle-view li {
+    margin:0px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    cursor:pointer;
+    list-style-type:none;
+    padding-left:15px;
+}
+
+#toggle-view span {
+    position:absolute;
+    left:0px;
+    top:0;
+    color:#bdbdbd;
+    font-size:28px;
+    font-weight:bold;
+}
+
+#toggle-view span:hover {
+    color:#ff0000;
+}
+
+#toggle-view .panel {
+    margin:5px 0;
+    display:none;
+}
